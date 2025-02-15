@@ -1,0 +1,15 @@
+[package]
+name = "boilerplate_template"
+version = "1.0.0"
+authors = []
+
+[addresses]
+poke_addr = "0x12345"
+
+[dev-addresses]
+poke_addr = "0x123"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "mainnet" }
+
+[dev-dependencies]
